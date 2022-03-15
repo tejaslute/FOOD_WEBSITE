@@ -10,7 +10,7 @@ window.onscroll = () => {
     }
 }
 
-// top nav menu
+// top nav menu 
 
 let menuItems = document.getElementsByClassName('menu-item')
 
