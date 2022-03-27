@@ -13,7 +13,7 @@ window.onscroll = () => {
 // top nav menu 
 
 let menuItems = document.getElementsByClassName('menu-item')
-
+ 
 Array.from(menuItems).forEach((item, index) => {
     item.onclick = (e) => {
         let currMenu = document.querySelector('.menu-item.active')
